@@ -19,7 +19,8 @@
 			import mx.events.FlexEvent;
 			
 			[Bindable]
-			private var _about:String = "";
+			private var _about:String = "Fork by lulzsun @ Github\n" +
+										"<a href=\"https://github.com/lulzsun/DesignPanel\">https://github.com/lulzsun/DesignPanel</a>\n";
 			
 			protected function this_creationCompleteHandler(event:FlexEvent):void
 			{
@@ -51,7 +52,7 @@
 			private function cloud_onLoadAboutSuccess(event:DBCloudEvent):void
 			{
 				DBCloud.instance.removeEventListener(DBCloudEvent.LOAD_ABOUT_SUCCESS, cloud_onLoadAboutSuccess);
-				_about = String(event.data.outputData);
+				_about += String(event.data.outputData);
 			}
 			
 			protected function copyright_clickHandler(event:MouseEvent):void
