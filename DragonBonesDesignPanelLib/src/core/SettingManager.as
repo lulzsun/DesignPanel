@@ -80,7 +80,8 @@ package core
 			{value:GlobalConstValues.CONFIG_TYPE_MERGED, label:GlobalConstValues.CONFIG_TYPE_MERGED}, 
 			{value:GlobalConstValues.CONFIG_TYPE_AMF3, label:GlobalConstValues.CONFIG_TYPE_AMF3}, 
 			{value:GlobalConstValues.CONFIG_TYPE_XML, label:GlobalConstValues.CONFIG_TYPE_XML}, 
-			{value:GlobalConstValues.CONFIG_TYPE_JSON, label:GlobalConstValues.CONFIG_TYPE_JSON}
+			{value:GlobalConstValues.CONFIG_TYPE_EGRET, label:GlobalConstValues.CONFIG_TYPE_EGRET},
+			{value:GlobalConstValues.CONFIG_TYPE_SPINE, label:GlobalConstValues.CONFIG_TYPE_SPINE}
 		]);
 		
 		public var exportTextureFormatAC:ArrayCollection = new ArrayCollection([

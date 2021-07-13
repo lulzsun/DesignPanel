@@ -18,7 +18,8 @@
 		public static const CONFIG_TYPE_MERGED:String = "dataMerged";
 		public static const CONFIG_TYPE_AMF3:String = "dataAmf3";
 		public static const CONFIG_TYPE_XML:String = "dataXml";
-		public static const CONFIG_TYPE_JSON:String = "dataJson";
+		public static const CONFIG_TYPE_EGRET:String = "dataEgret";
+		public static const CONFIG_TYPE_SPINE:String = "dataSpine";
 		
 		// texture atlas type
 		public static const TEXTURE_ATLAS_TYPE_SWF:String = "textureSwf";

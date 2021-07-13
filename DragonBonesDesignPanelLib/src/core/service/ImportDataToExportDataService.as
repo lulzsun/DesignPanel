@@ -229,7 +229,7 @@ package core.service
 					fileName += GlobalConstValues.XML_SUFFIX;
 					break;
 				
-				case GlobalConstValues.CONFIG_TYPE_JSON:
+				case GlobalConstValues.CONFIG_TYPE_EGRET:
 					if(objData)
 					{
 						dataToZip = com.adobe.serialization.json.JSON.encode(objData);
@@ -321,7 +321,7 @@ package core.service
 					);
 					break;
 				
-				case GlobalConstValues.CONFIG_TYPE_JSON:
+				case GlobalConstValues.CONFIG_TYPE_EGRET:
 					zip.add(
 						com.adobe.serialization.json.JSON.encode(DataFormatUtils.xmlToObject(importModel.vo.textureAtlasConfig, GlobalConstValues.XML_LIST_NAMES)), 
 						_exportVO.textureAtlasConfigFileName + "." + GlobalConstValues.JSON_SUFFIX, 
