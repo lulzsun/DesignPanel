@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"output": "bin/DragonBonesDesignPanel.swf",
+		"accessible": true,
+		"source-path": [
+			"src",
+			"../DragonBones/src",
+			"../DragonBonesDesignPanelLib/src"
+		],
+		"library-path": [
+			"libs",
+			"../DragonBonesDesignPanelLib/libs"
+		]
+	},
+	"files": [
+		"src/DragonBonesDesignPanel.mxml"
+	],
+	"htmlTemplate": "html-template",
+	"additionalOptions": "-locale en_US zh_CN ja_JP fr_FR -source-path ../DragonBonesDesignPanelLib/locale/{locale} -allow-source-path-overlap=true"
+}
